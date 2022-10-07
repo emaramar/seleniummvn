@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="gui-Suite">
+	<test name="Regression Test" parallel="false">
+		<parameter name="browser"   value="chrome"></parameter>
+		<parameter name="URL"       value="https://tlau.conciergeplus.com/"></parameter>
+		<parameter name="userName"  value="tina.lau@conciergeplus.com"></parameter>
+		<parameter name="password"  value="Concierge2019"></parameter>
+		
+		<classes>
+			  <class name="tests.BasePageTest" /> 
+			  <class name="tests.LoginPageTest" /> 
+			  <class name="tests.DeliveriesPageTest" /> 
+			  <class name="tests.NotesPageTest" />
+		      <class name="tests.AnnouncementsPageTest" /> 
+			  <class name="tests.ServiceRequestsPageTest" />
+			  <class name="tests.AmenityBookingPageTest" />
+	     	  <class name="tests.IncidentReportsPageTest" />
+		      <class name="tests.EntryInstructionsPageTest" />
+		      <class name="tests.resources.MediaLibraryPageTest" />
+			  <class name="tests.resources.ResidentsGuidePageTest" />
+		      <class name="tests.site_settings.OnlinePaymentsTabTest" />
+		      <class name="tests.site_settings.ParkingPageTest" />
+		      <class name="tests.site_settings.VisitorParkingPageTest" />
+			  <class name="tests.DailyOverviewPageTest" />
+	 
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

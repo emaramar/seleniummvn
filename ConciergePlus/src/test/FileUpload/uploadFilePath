@@ -1,0 +1,23 @@
+upload path : 
+
+#upload "Condo.jpg" imge #  
+#use in Media Library module#
+C:\Automation\ConciergePlus\src\test\FileUpload\condo.exe
+
+#upload "test PDF.pdf" imge #
+#use in Media Library module#
+C:\Automation\ConciergePlus\src\test\FileUpload\pdf.exe
+
+
+#upload "test Text.doc" imge #
+#use in Media Library module#
+C:\Automation\ConciergePlus\src\test\FileUpload\text.exe
+
+#upload carKey imge #
+#use inIncident Reports#
+C:\Automation\ConciergePlus\src\test\FileUpload\carkey.exe
+
+
+#upload dogwalker imge #
+# use in Entry Instruction module#
+C:\Automation\ConciergePlus\src\test\FileUpload\dogwalker.exe

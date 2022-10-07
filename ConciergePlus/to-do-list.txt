@@ -1,0 +1,6 @@
+1, First task, example
+2, Packages per page objects and Test
+3, How to make sure you locate each web element only one time
+4, Rule to create page object, popup
+5, How big should a java class be, https://dzone.com/articles/rule-30-%E2%80%93-when-method-class-or
+6, Use //div[contains(@class, 'tt-suggestion')] to handle dynamic drop-down options
